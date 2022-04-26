@@ -1,0 +1,1 @@
+{"name": "${KEY}", "valueFrom": "${VALUE}"}
