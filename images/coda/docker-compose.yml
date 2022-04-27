@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  coda:
+    build: .
+    image: coda:latest
+    command: python __init__.py
+    volumes:
+      - .:/app
+    env_file:
+      - .env

@@ -1,0 +1,7 @@
+FROM python:3.8.2-slim
+
+ENV PYTHONUNBUFFERED=0
+
+WORKDIR /app
+
+COPY . .
